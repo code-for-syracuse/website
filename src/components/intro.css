@@ -1,0 +1,142 @@
+@import "../colors.css";
+
+.intro-wrapper {
+  display: flex;
+  padding-top: 96px;
+  padding-left: 64px;
+  padding-right: 64px;
+
+  max-width: 1400px;
+  margin: 0px auto;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* Left Pane */
+/* ------------------------------------------------------------------------------ */
+
+.intro-left {
+  width: 50%;
+  margin-right: 24px;
+}
+
+.intro-big {
+  color: var(--orange);
+  font-size: 48px;
+}
+.intro-small {
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 24px;
+}
+.intro-byline, .intro-byline a {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 8px;
+  color: var(--gray);
+}
+.intro-byline a {
+  font-weight: bold;
+}
+
+.intro-meetup-card {
+  position: relative;
+  margin-top: 48px;
+  padding: 24px;
+  padding-top: 16px;
+
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0px 0px 16px #eee;
+}
+.intro-meetup-card-header {
+  font-size: 14px;
+  color: var(--gray);
+  padding-bottom: 16px;
+}
+.intro-meetup-card h4 {
+  font-size: 18px;
+  font-weight: normal;
+}
+.intro-meetup-card-button-aligner { display: flex; }
+.intro-meetup-card-button {
+  margin-left: auto; /* for button alignment */
+  text-decoration: none;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: var(--orange);
+  border: 2px solid #D44500;
+  box-sizing: border-box;
+  border-radius: 4px;
+  transition: opacity 100ms ease-in-out;
+}
+.intro-meetup-card-button:hover { opacity: 0.75; }
+.intro-meetup-card-button:active { opacity: 1; }
+.intro-meetup-card-button:focus {
+  border: 2px solid var(--black);
+}
+
+.intro-all-events-wrapper {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  margin-right: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.intro-all-events-wrapper span {
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  text-align: right;
+  font-weight: bold;
+  color: var(--gray);
+  margin-right: 24px;
+}
+.intro-all-events-button {
+  margin-left: auto; /* for button alignment */
+  text-decoration: none;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--black);
+  background-color: transparent;
+  border: 2px solid var(--black);
+  box-sizing: border-box;
+  border-radius: 4px;
+  transition: all 100ms ease-in-out;
+}
+.intro-all-events-button:hover {
+  opacity: 0.75;
+  background-color: rgba(101, 101, 101, 0.25);
+}
+.intro-all-events-button:active { opacity: 1; }
+.intro-all-events-button:focus {
+  border: 2px solid var(--orange);
+  color: var(--orange);
+}
+
+/* ---------------------------------------------------------------------------- */
+/* Right Pane */
+/* ------------------------------------------------------------------------------ */
+
+.intro-right {
+  width: 50%;
+  margin-left: 24px;
+}
+.intro-right img {
+  width: 100%;
+  border-radius: 4px;
+}
