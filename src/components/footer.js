@@ -1,7 +1,8 @@
 import React from 'react';
 import './intro.css';
 
-const Footer = () => (
+export default function Footer() {
+    return(
   <div className="footer-wrapper">
     <div className="footer-left-column">
       <h1>
@@ -36,6 +37,5 @@ const Footer = () => (
       </p>
 </div>
 </div>
-)
-
-export default Footer
+    )
+}
