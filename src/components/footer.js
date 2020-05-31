@@ -24,7 +24,7 @@ export default function Footer() {
         <span className="footer-big">Contact Us</span>
         </h1>
         <p className="footer-byline">
-        Email: <a href="mailto: hello@codeforsyracuse.org"></a> 
+        Email: <a href= "mailto: hello@codeforsyracuse.org">hello@codeforsyracuse.org</a> 
       </p>
       <p className="footer-byline">
       Slack: Join the <a href="https://slackacuse.herokuapp.com/">Syracuse.io</a> Slack group
