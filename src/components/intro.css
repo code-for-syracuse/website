@@ -140,3 +140,48 @@
   width: 100%;
   border-radius: 4px;
 }
+
+/* ---------------------------------------------------------------------------- */
+/* Footer */
+/* ------------------------------------------------------------------------------ */
+.footer-wrapper {
+  display: flex;
+  padding-top: 2880px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  margin: 0px auto;
+  background: white;
+}
+
+.footer-left-column {
+  width: 50%;
+  margin-right: 75px;
+}
+
+.footer-right-column {
+  width: 50%;
+  margin-left: 75px;
+}
+
+.footer-big {
+  color: var(--black);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 33px;
+}
+
+.footer-byline {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  color: var(--black);
+}
+
+.footer-byline a {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  color: var(--orange);
+}
